@@ -1,25 +1,15 @@
 [package]
-name = "Simple-Wayland-HotKey-Daemon"
-version = "1.0.0"
+name = "wayshot"
+version = "0.1.0"
 edition = "2021"
-authors = [
-	"Shinyzenith <aakashsensharma@gmail.com>\n",
-	"Angelo Fallaria <ba.fallaria@gmail.com>\n",
-	"EdenQwQ <lsahlm1eden@gmail.com>\n"
-]
+authors = ["Shinyzenith <aakash@shinyzenith.xyz>"]
 
 [dependencies]
-clap = "3.0.4"
 env_logger = "0.8.4"
-evdev = "0.11.3"
+evdev-rs = "0.5.0"
+libc = "0.2.117"
 log = "0.4.0"
-nix = "0.23.1"
-sysinfo = "0.23.0"
 
 [[bin]]
-name = "swhkd"
-path = "src/daemon.rs"
-
-[[bin]]
-name = "swhks"
-path = "src/server.rs"
+name = "wayshot"
+path = "src/main.rs"
