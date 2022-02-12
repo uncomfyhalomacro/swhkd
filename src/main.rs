@@ -30,7 +30,7 @@ fn print_sync_dropped_event(ev: &InputEvent) {
 fn main() {
     let mut args = std::env::args();
 
-    std::env::set_var("RUST_LOG", "wayshot=trace");
+    std::env::set_var("RUST_LOG", "swhkd=trace");
     env_logger::init();
 
     if args.len() != 2 {

@@ -1,4 +1,4 @@
-BINARY := wayshot
+BINARY := swhkd
 BUILDFLAGS := --release
 TARGET_DIR := /usr/local/bin
 

@@ -1,5 +1,5 @@
 [package]
-name = "wayshot"
+name = "swhkd"
 version = "0.1.0"
 edition = "2021"
 authors = ["Shinyzenith <aakash@shinyzenith.xyz>"]
@@ -11,5 +11,5 @@ libc = "0.2.117"
 log = "0.4.0"
 
 [[bin]]
-name = "bin"
+name = "swhkd"
 path = "src/main.rs"
